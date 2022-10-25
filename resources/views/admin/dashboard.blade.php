@@ -2,6 +2,12 @@
 
 @section('content')
 
+<div>
+    @if (session('message'))
+    <h2>{{ session('message') }}</h2>
+    @endif
+</div>
+
 <div class="row">
     <div class="col-12">
         <div class="page-title-box">
